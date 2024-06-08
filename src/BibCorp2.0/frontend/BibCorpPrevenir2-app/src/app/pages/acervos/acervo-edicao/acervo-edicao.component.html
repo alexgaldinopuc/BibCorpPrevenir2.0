@@ -93,8 +93,8 @@
           <div class="form-row d-md-flex">
             <mat-form-field fxFlex="100" class="p-1">
               <mat-label>Resumo</mat-label>
-              <textarea matInput type="text" formControlName="resumo"
-                [ngClass]="fieldValidator(ctrF.resumo)"></textarea>
+              <textarea matInput type="text"  formControlName="resumo"
+                [ngClass]="fieldValidator(ctrF.resumo)" ></textarea>
               <mat-error class="invalid-feedback">{{messageReturned(ctrF.resumo, '')}}</mat-error>
             </mat-form-field>
           </div>
