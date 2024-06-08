@@ -86,6 +86,36 @@ namespace BibCorpPrevenir2.Persistence.Migrations
                     b.ToTable("Acervos");
                 });
 
+            modelBuilder.Entity("BibCorpPrevenir2.Domain.Models.Comentarios.Comentario", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AcervoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Avaliacao")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ComentarioTxt")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id", "AcervoId", "UserId");
+
+                    b.HasIndex("AcervoId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Comentarios");
+                });
+
             modelBuilder.Entity("BibCorpPrevenir2.Domain.Models.Emprestimos.Emprestimo", b =>
                 {
                     b.Property<int>("Id")
@@ -411,6 +441,25 @@ namespace BibCorpPrevenir2.Persistence.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("BibCorpPrevenir2.Domain.Models.Comentarios.Comentario", b =>
+                {
+                    b.HasOne("BibCorpPrevenir2.Domain.Models.Acervos.Acervo", "Acervo")
+                        .WithMany()
+                        .HasForeignKey("AcervoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BibCorpPrevenir2.Domain.Models.Usuarios.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Acervo");
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("BibCorpPrevenir2.Domain.Models.Emprestimos.Emprestimo", b =>
