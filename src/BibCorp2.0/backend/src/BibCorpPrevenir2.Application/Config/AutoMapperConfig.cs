@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using BibCorpPrevenir2.Application.Dtos.Acervos;
+using BibCorpPrevenir2.Application.Dtos.Comentarios;
 using BibCorpPrevenir2.Application.Dtos.Emprestimos;
 using BibCorpPrevenir2.Application.Dtos.Patrimonios;
 using BibCorpPrevenir2.Application.Dtos.Usuarios;
 using BibCorpPrevenir2.Domain.Models.Acervos;
+using BibCorpPrevenir2.Domain.Models.Comentarios;
 using BibCorpPrevenir2.Domain.Models.Emprestimos;
 using BibCorpPrevenir2.Domain.Models.Patrimonios;
 using BibCorpPrevenir2.Domain.Models.Usuarios;
@@ -29,6 +31,8 @@ namespace BibCorpPrevenir2.Application.Config
 
             CreateMap<Emprestimo, EmprestimoDto>().ReverseMap();
             CreateMap<EmprestimoFiltro[], EmprestimoFiltroDto>().ReverseMap();
+
+            CreateMap<Comentario, ComentarioDto>().ReverseMap();
 
         }
     }

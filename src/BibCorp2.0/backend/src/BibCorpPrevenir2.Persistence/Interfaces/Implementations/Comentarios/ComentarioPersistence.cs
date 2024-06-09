@@ -1,4 +1,5 @@
-﻿using BibCorpPrevenir2.Domain.Models.Comentarios;
+﻿using BibCorpPrevenir2.Domain.Models.Acervos;
+using BibCorpPrevenir2.Domain.Models.Comentarios;
 using BibCorpPrevenir2.Domain.Models.Emprestimos;
 using BibCorpPrevenir2.Persistence.Configuration.Classes;
 using BibCorpPrevenir2.Persistence.Contexts;
@@ -27,7 +28,7 @@ namespace BibCorpPrevenir2.Persistence.Interfaces.Implementations.Comentarios
         public async Task<IEnumerable<Comentario>> GetComentarioByAcervoIdAsync(int acervoId)
        {
             IQueryable<Comentario> query = _context.Comentarios 
-        .Include(c => c.Acervo)
+              .Include(c => c.Acervo)
               .Include(c => c.Usuario)
               .AsNoTracking()
               .Where(a => a.Id == acervoId);
@@ -36,7 +37,18 @@ namespace BibCorpPrevenir2.Persistence.Interfaces.Implementations.Comentarios
             return await query.ToListAsync(); ;
 #pragma warning restore CS8603 // Possible null reference return.
     }
+        public async Task<Comentario> GetComentarioByIdAsync(int comentarioId)
+        {
+            IQueryable<Comentario> query = _context.Comentarios
+              .Include(c => c.Acervo)
+              .Include(c => c.Usuario)
+              .AsNoTracking()
+              .Where(c => c.Id == comentarioId);
 
+#pragma warning disable CS8603 // Possible null reference return.
+            return await query.FirstOrDefaultAsync();
+#pragma warning restore CS8603 // Possible null reference return.
+        }
 
-}
+    }
 }
