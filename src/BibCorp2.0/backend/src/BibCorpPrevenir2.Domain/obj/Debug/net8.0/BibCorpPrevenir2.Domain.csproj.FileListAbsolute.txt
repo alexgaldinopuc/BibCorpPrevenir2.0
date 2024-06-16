@@ -50,3 +50,16 @@ C:\Users\Alexandre\Desktop\Tiaw 2-2\BibCorpPrevenir2.0\src\BibCorp2.0\backend\sr
 C:\Users\Alexandre\Desktop\Tiaw 2-2\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\refint\BibCorpPrevenir2.Domain.dll
 C:\Users\Alexandre\Desktop\Tiaw 2-2\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.pdb
 C:\Users\Alexandre\Desktop\Tiaw 2-2\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\ref\BibCorpPrevenir2.Domain.dll
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\bin\Debug\net8.0\BibCorpPrevenir2.Domain.deps.json
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\bin\Debug\net8.0\BibCorpPrevenir2.Domain.dll
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\bin\Debug\net8.0\BibCorpPrevenir2.Domain.pdb
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.csproj.AssemblyReference.cache
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.AssemblyInfoInputs.cache
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.AssemblyInfo.cs
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.sourcelink.json
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.dll
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\refint\BibCorpPrevenir2.Domain.dll
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\BibCorpPrevenir2.Domain.pdb
+C:\Users\Kauan Emanuel\OneDrive\tiaw\Nova pasta\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.Domain\obj\Debug\net8.0\ref\BibCorpPrevenir2.Domain.dll

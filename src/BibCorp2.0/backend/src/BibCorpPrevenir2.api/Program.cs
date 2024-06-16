@@ -1,8 +1,10 @@
 using BibCorpPrevenir2.Application.Services.Contracts.Acervos;
+using BibCorpPrevenir2.Application.Services.Contracts.Comentarios;
 using BibCorpPrevenir2.Application.Services.Contracts.Emprestimos;
 using BibCorpPrevenir2.Application.Services.Contracts.Patrimonios;
 using BibCorpPrevenir2.Application.Services.Contracts.Usuarios;
 using BibCorpPrevenir2.Application.Services.Implements.Acervos;
+using BibCorpPrevenir2.Application.Services.Implements.Comentarios;
 using BibCorpPrevenir2.Application.Services.Implements.Emprestimos;
 using BibCorpPrevenir2.api.Util.Services.Interfaces.Contracts.Uploads;
 using BibCorpPrevenir2.Application.Services.Implements.Patrimonios;
@@ -12,11 +14,13 @@ using BibCorpPrevenir2.Domain.Models.Usuarios;
 using BibCorpPrevenir2.Persistence.Configuration.Classes;
 using BibCorpPrevenir2.Persistence.Contexts;
 using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Acervos;
+using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Comentarios;
 using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Emprestimos;
 using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Patrimonios;
 using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Shared;
 using BibCorpPrevenir2.Persistence.Interfaces.Contracts.Usuarios;
 using BibCorpPrevenir2.Persistence.Interfaces.Implementations.Acervos;
+using BibCorpPrevenir2.Persistence.Interfaces.Implementations.Comentarios;
 using BibCorpPrevenir2.Persistence.Interfaces.Implementations.Patrimonios;
 using BibCorpPrevenir2.Persistence.Interfaces.Implementations.Shared;
 using BibCorpPrevenir2.Persistence.Interfaces.Implementations.Emprestimos;
@@ -107,7 +111,8 @@ builder.Services
     .AddScoped<IPatrimonioService, PatrimonioService>()
     .AddScoped<ITokenService, TokenService>()
     .AddScoped<IUsuarioService, UsuarioService>()
-    .AddScoped<IUploadService, UploadService>();
+    .AddScoped<IUploadService, UploadService>()
+    .AddScoped<IComentarioService, ComentarioService>();
 
 //Injeção das interfaces de Persistencias
 builder.Services
@@ -115,7 +120,8 @@ builder.Services
     .AddScoped<IEmprestimoPersistence, EmprestimoPersistence>()
     .AddScoped<IPatrimonioPersistence, PatrimonioPersistence>()
     .AddScoped<IUsuarioPersistence, UsuarioPersistence>()
-    .AddScoped<ISharedPersistence, SharedPersistence>();
+    .AddScoped<ISharedPersistence, SharedPersistence>()
+    .AddScoped<IComentarioPersistence, ComentarioPersistence>();
 
 builder.Services
     .AddCors();

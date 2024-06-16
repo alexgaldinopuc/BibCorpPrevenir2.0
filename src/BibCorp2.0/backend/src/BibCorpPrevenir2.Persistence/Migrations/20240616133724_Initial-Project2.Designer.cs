@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibCorpPrevenir2.Persistence.Migrations
 {
     [DbContext(typeof(BibCorpPrevenir2Context))]
-    [Migration("20240608184654_Initial-Project2")]
+    [Migration("20240616133724_Initial-Project2")]
     partial class InitialProject2
     {
         /// <inheritdoc />

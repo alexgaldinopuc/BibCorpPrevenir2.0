@@ -4646,19 +4646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexandre\\.nuget\\packages\\": {}
+    "C:\\Users\\Kauan Emanuel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\BibCorpPrevenir2.api.csproj",
+      "projectUniqueName": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\BibCorpPrevenir2.api.csproj",
       "projectName": "BibCorpPrevenir2.api",
-      "projectPath": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\BibCorpPrevenir2.api.csproj",
-      "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\obj\\",
+      "projectPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\BibCorpPrevenir2.api.csproj",
+      "packagesPath": "C:\\Users\\Kauan Emanuel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kauan Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4672,8 +4672,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Application\\BibCorpPrevenir2.Application.csproj": {
-              "projectPath": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Application\\BibCorpPrevenir2.Application.csproj"
+            "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Application\\BibCorpPrevenir2.Application.csproj": {
+              "projectPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Application\\BibCorpPrevenir2.Application.csproj"
             }
           }
         }
@@ -4753,7 +4753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

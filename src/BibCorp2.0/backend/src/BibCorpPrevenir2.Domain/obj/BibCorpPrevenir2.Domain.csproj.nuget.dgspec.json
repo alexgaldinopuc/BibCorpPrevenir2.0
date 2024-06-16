@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {}
+    "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {
+    "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj",
         "projectName": "BibCorpPrevenir2.Domain",
-        "projectPath": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandre\\Desktop\\Tiaw 2-2\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kauan Emanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kauan Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
