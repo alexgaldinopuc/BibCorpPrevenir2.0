@@ -808,3 +808,4 @@ D:\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.api\obj\Debug\
 D:\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.api\obj\Debug\net8.0\BibCorpPrevenir2.api.pdb
 D:\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.api\obj\Debug\net8.0\BibCorpPrevenir2.api.genruntimeconfig.cache
 D:\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.api\obj\Debug\net8.0\ref\BibCorpPrevenir2.api.dll
+D:\BibCorpPrevenir2.0\src\BibCorp2.0\backend\src\BibCorpPrevenir2.api\bin\Debug\net8.0\package-lock.json

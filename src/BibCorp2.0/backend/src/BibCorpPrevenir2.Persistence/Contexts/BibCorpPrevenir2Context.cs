@@ -21,7 +21,7 @@ namespace BibCorpPrevenir2.Persistence.Contexts
         public DbSet<Acervo> Acervos { get; set; }
         public DbSet<Patrimonio> Patrimonios { get; set; }
         public DbSet<Emprestimo> Emprestimos { get; set; }
-         public DbSet<Comentario> Comentarios { get; set; }
+        public DbSet<Comentario> Comentarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -64,7 +64,7 @@ namespace BibCorpPrevenir2.Persistence.Contexts
 
             });
 
-          
+
 
             // Acervos
             modelBuilder.Entity<Acervo>(acervo =>
@@ -72,11 +72,6 @@ namespace BibCorpPrevenir2.Persistence.Contexts
                 acervo.HasIndex(a => a.ISBN);
             });
 
-             // Comentarios
-            modelBuilder.Entity<Comentario>(comentario =>
-            {
-                  comentario.HasKey(c => new { c.Id, c.AcervoId, c.UserId });
-            });
         }
     }
 }

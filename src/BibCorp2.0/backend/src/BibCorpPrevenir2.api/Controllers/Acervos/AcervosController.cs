@@ -17,7 +17,7 @@ namespace BibCorpPrevenir2.api.Controllers.Acervos;
 [Route("api/[controller]")]
 public class AcervosController : Controller
 {
-    private readonly IAcervoService _acervoService;
+        private readonly IAcervoService _acervoService;
     private readonly IPatrimonioService _patrimonioService; 
     private readonly IUsuarioService _usuarioService;
 

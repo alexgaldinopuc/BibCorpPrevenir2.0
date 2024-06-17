@@ -12,7 +12,7 @@ namespace BibCorpPrevenir2.Application.Services.Contracts.Comentarios
     public interface IComentarioService
     {
        
-        Task<ComentarioDto> GetComentarioByAcervoIdAsync(int acervoId);
+        Task<IEnumerable<ComentarioDto>> GetComentarioByAcervoIdAsync(int acervoId);
         Task<ComentarioDto> CreateComentario(ComentarioDto comentarioDto);
         Task<ComentarioDto> GetComentarioByIdAsync(int comentarioId);
 

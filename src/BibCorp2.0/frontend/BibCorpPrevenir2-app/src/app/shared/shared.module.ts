@@ -56,7 +56,7 @@ import { NgxMaskDirective, provideEnvironmentNgxMask } from 'ngx-mask';
     NgxMaskDirective,
     NgxSpinnerModule.forRoot({ type: "square-jelly-box"}),
     RouterModule,
-    ToastrModule.forRoot(),
+    ToastrModule.forRoot({ positionClass: 'toast-bottom-right' }),
 
     MatButtonModule,
     MatCardModule,

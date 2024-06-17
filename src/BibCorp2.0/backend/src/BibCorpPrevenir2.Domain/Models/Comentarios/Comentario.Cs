@@ -6,11 +6,13 @@ namespace BibCorpPrevenir2.Domain.Models.Comentarios
     {
         public int Id { get; set; }
         public int AcervoId { get; set; }
-        public int UserId { get; set; }
+        public string UserName { get; set; }
         public string ComentarioTxt { get; set; }
+        public int UserId { get; set; }
+        public int UsuarioId { get; set; }
         public int Avaliacao { get; set; }
-        public Acervo Acervo { get; set; }
-        public Usuario Usuario { get; set; }
+        public Acervo? Acervo { get; set; }
+        public Usuario? Usuario { get; set; }
         
     }
 }

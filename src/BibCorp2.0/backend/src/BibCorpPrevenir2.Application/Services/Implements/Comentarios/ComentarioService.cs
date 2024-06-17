@@ -52,15 +52,15 @@ namespace BibCorpPrevenir2.Application.Services.Implements.Comentarios
             }
         }
 
-        public async Task<ComentarioDto> GetComentarioByAcervoIdAsync(int acervoId)
+        public async Task<IEnumerable<ComentarioDto>> GetComentarioByAcervoIdAsync(int acervoId)
         {
             try
             {
-                var comentario = await _comentarioPersistence.GetComentarioByAcervoIdAsync(acervoId);
+                var comentarios = await _comentarioPersistence.GetComentarioByAcervoIdAsync(acervoId);
 
-                if (comentario == null) return null;
+                if (comentarios == null) return null;
 
-                var comentarioMapper = _mapper.Map<ComentarioDto>(comentario);
+                var comentarioMapper = _mapper.Map<ComentarioDto[]>(comentarios);
 
                 return comentarioMapper;
             }

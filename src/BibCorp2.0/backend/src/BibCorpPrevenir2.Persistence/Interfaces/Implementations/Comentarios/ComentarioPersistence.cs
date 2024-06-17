@@ -27,11 +27,12 @@ namespace BibCorpPrevenir2.Persistence.Interfaces.Implementations.Comentarios
                    }
         public async Task<IEnumerable<Comentario>> GetComentarioByAcervoIdAsync(int acervoId)
        {
-            IQueryable<Comentario> query = _context.Comentarios 
-              .Include(c => c.Acervo)
+            IQueryable<Comentario> query = _context.Comentarios
               .Include(c => c.Usuario)
+              .Include(c => c.Acervo)
               .AsNoTracking()
-              .Where(a => a.Id == acervoId);
+              .Where(a => a.AcervoId == acervoId)
+              .OrderByDescending(c => c.Id);
 
 #pragma warning disable CS8603 // Possible null reference return.
             return await query.ToListAsync(); ;
