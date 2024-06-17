@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibCorpPrevenir2.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fca5290310ab3cce8f834933c27000c97f5713e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed9f8e26d7de768f3142e2b2a87f6321f8f0798c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibCorpPrevenir2.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibCorpPrevenir2.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

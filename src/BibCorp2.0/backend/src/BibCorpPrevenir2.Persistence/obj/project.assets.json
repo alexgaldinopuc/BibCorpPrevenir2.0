@@ -2498,19 +2498,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kauan Emanuel\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\BibCorpPrevenir2.Persistence.csproj",
+      "projectUniqueName": "D:\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\BibCorpPrevenir2.Persistence.csproj",
       "projectName": "BibCorpPrevenir2.Persistence",
-      "projectPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\BibCorpPrevenir2.Persistence.csproj",
-      "packagesPath": "C:\\Users\\Kauan Emanuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\obj\\",
+      "projectPath": "D:\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\BibCorpPrevenir2.Persistence.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Persistence\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kauan Emanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2518,14 +2523,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {
-              "projectPath": "C:\\Users\\Kauan Emanuel\\OneDrive\\tiaw\\Nova pasta\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj"
+            "D:\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj": {
+              "projectPath": "D:\\BibCorpPrevenir2.0\\src\\BibCorp2.0\\backend\\src\\BibCorpPrevenir2.Domain\\BibCorpPrevenir2.Domain.csproj"
             }
           }
         }
@@ -2580,7 +2586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

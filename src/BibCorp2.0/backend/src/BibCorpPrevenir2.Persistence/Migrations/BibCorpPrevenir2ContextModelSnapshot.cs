@@ -89,12 +89,12 @@ namespace BibCorpPrevenir2.Persistence.Migrations
             modelBuilder.Entity("BibCorpPrevenir2.Domain.Models.Comentarios.Comentario", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AcervoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.Property<int>("Avaliacao")
@@ -104,10 +104,17 @@ namespace BibCorpPrevenir2.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id", "AcervoId", "UserId");
+                    b.HasKey("Id");
 
                     b.HasIndex("AcervoId");
 
